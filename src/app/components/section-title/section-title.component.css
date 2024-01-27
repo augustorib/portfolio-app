@@ -1,0 +1,7 @@
+.container__section-title {
+    color: white;
+}
+
+.container__section-title > h2 >  span{
+    color: var(--app-color);
+}
