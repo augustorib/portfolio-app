@@ -1,5 +1,7 @@
 .container__section-title {
     color: white;
+    text-align: center;
+    font-size: 22px;
 }
 
 .container__section-title > h2 >  span{
