@@ -7,6 +7,7 @@
 .container__main-content__banner{
     display: flex;
     justify-content: space-between;
+    gap: 70px;
 }
 
 .container__main-content__banner__text{
@@ -22,12 +23,17 @@
     margin: 20px 0;
 }
 
+.container__main-content__banner__text > p > span{
+    text-transform: capitalize;
+    color: var(--app-color);
+}
+
 .container__main-content__banner__btnContact button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 400px;
     border: 0;
-    background-color: #43d6f7;
+    background-color: var(--app-color);
     border-radius: 30px;
     transition: .2s;
 }

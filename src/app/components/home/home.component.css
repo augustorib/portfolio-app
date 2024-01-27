@@ -4,3 +4,20 @@
     border: solid 5px green;
     padding: 35px 5%;
 }
+
+.container__home > h1 {
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    font-size: 30px;
+}
+
+.container__home > h1 > span {
+    color: #43d6f7;
+}
+
+.container__home__specialities{
+    display: flex;
+    gap: 20px;
+
+}
