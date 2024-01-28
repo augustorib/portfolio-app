@@ -1,6 +1,6 @@
 .container__specialities-box{
     margin-top: 40px;
-    padding: 40px 0;
+    padding: 40px 5%;
   
 }
 
@@ -31,7 +31,7 @@
 }
 
 .container__specialities-box > section > p{
-    font-size: 27px;   
+    font-size: 25px;   
 }
 
 

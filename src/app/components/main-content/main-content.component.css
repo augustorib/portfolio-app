@@ -19,8 +19,9 @@
 }
 
 .container__main-content__banner__text > p{
-    font-size: 20px;
+    font-size: var(--font-p);
     margin: 20px 0;
+    text-align: justify;
 }
 
 .container__main-content__banner__text > p > span{
