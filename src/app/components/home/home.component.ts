@@ -5,12 +5,13 @@ import { SpecialitiesBoxComponent } from '../specialities-box/specialities-box.c
 import { SectionTitleComponent } from '../section-title/section-title.component';
 import { SectionAboutComponent } from '../section-about/section-about.component';
 import { SectionProjectsComponent } from '../section-projects/section-projects.component';
+import { SectionContactMeComponent } from '../section-contact-me/section-contact-me.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [MenuBarComponent, MainContentComponent, SpecialitiesBoxComponent, SectionTitleComponent,
-  SectionAboutComponent, SectionProjectsComponent],
+  SectionAboutComponent, SectionProjectsComponent, SectionContactMeComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
