@@ -1,9 +1,13 @@
 <div class="container__home">
     <menu-bar></menu-bar>
 
-    <main-content></main-content>
-
-    <section-title sectionTitle="Minhas Competências"></section-title>
+    <div class="container__home__main">
+        <main-content></main-content>
+    </div>
+    
+    <div class="container__home__title-margin">
+        <section-title sectionTitle="Minhas Competências" id="specialities"></section-title>
+    </div>
 
     <div class="container__home__specialities">
         <specialities-box></specialities-box>
@@ -21,11 +25,16 @@
         </specialities-box>
     </div>
 
-    <section-about></section-about>
-
-    <section-projects></section-projects>
-
-    <section-contact-me></section-contact-me>
+    <div class="container__home__title-margin">
+        <section-about id="about"></section-about>
+    </div>
     
+    <section-projects id="projects"></section-projects>
+
+
+    <section-contact-me id="contact"></section-contact-me>
+
+    <app-footer></app-footer>
+
 </div>
 

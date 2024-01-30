@@ -6,12 +6,13 @@ import { SectionTitleComponent } from '../section-title/section-title.component'
 import { SectionAboutComponent } from '../section-about/section-about.component';
 import { SectionProjectsComponent } from '../section-projects/section-projects.component';
 import { SectionContactMeComponent } from '../section-contact-me/section-contact-me.component';
+import { FooterComponent } from '../footer/footer.component';
 
 @Component({
   selector: 'app-home',
   standalone: true,
   imports: [MenuBarComponent, MainContentComponent, SpecialitiesBoxComponent, SectionTitleComponent,
-  SectionAboutComponent, SectionProjectsComponent, SectionContactMeComponent],
+  SectionAboutComponent, SectionProjectsComponent, SectionContactMeComponent, FooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
