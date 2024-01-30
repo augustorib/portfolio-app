@@ -1,7 +1,5 @@
 .container__specialities-box{
-    margin-top: 40px;
-    padding: 40px 5%;
-  
+    padding: 10px 5%;
 }
 
 .container__specialities-box > section{
@@ -12,6 +10,7 @@
     height: 350px;
     width: 350px;
     transition: .3s;
+
 }
 
 .container__specialities-box > section:hover {

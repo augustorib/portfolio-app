@@ -22,6 +22,7 @@ hr {
 
 .container__footer__angular > p{
     font-size: 15px;
+    padding-bottom: 15px;
     background-clip: border-box;
     background: -webkit-linear-gradient(#ff00ff, #3333ff);
     -webkit-background-clip: text;

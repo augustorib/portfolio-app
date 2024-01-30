@@ -6,11 +6,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: black;
     font-family: 'Roboto', sans-serif;
-
     --app-color: #43d6f7;
     --font-p: 25px;
     --btn-shadow-color: #64e3ff;
 }
 
+
+:root{
+    background-color: black;
+}

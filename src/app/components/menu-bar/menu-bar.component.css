@@ -1,12 +1,11 @@
-.container__menu-bar{
-    border: solid 7px blue;
-}
-
 .container__menu-bar > header{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+}
+.container__menu-bar__interface__logo img{
+    border-radius: 50%;
 }
 
 .container__menu-bar__menu-desktop a {
@@ -43,4 +42,10 @@
     box-shadow: 0px 0px 10px #64e3ff;
     transform: scale(1.1);
 
+}
+
+@media screen and (max-width: 1020px){
+    .container__menu-bar__menu-desktop, .container__menu-bar__btn-contact {
+        display: none;
+    }
 }
