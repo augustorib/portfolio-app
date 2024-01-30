@@ -53,6 +53,8 @@
 
 }
 
+
+
 @keyframes float {
     0%{
         top:0 ;
@@ -60,5 +62,25 @@
 
     100%{
         top: 35px
+    }
+}
+
+
+
+@media screen and (max-width: 1020px){
+
+    .container__main-content__banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .container__main-content__banner .container__main-content__banner__text{
+        text-align: center;
+    }
+
+    .container__main-content__banner__text > p{
+        text-align: center;
     }
 }
