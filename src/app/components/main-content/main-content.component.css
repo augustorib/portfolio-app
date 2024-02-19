@@ -28,20 +28,11 @@
     color: var(--app-color);
 }
 
-.container__main-content__banner__btnContact button {
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 400px;
-    border: 0;
-    background-color: var(--app-color);
-    border-radius: 30px;
-    transition: .2s;
+.container__main-content__banner__social-btn {
+    display: flex;
+    gap: 20px;
 }
 
-.container__main-content__banner__btnContact button:hover {
-    box-shadow: 0px 0px 10px #64e3ff;
-    transform: scale(1.1);
-}
 
 .container__main-content__banner__image > img{
     width: 250px;
@@ -82,5 +73,9 @@
 
     .container__main-content__banner__text > p{
         text-align: center;
+    }
+
+    .container__main-content__banner__social-btn{
+        justify-content: center;
     }
 }
