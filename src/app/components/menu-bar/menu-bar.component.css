@@ -1,3 +1,11 @@
+.container__menu-bar{ 
+    position: sticky; 
+    top: 0;
+    padding: 15px 5%;
+    z-index: 9999;
+    background-color: black;
+}   
+
 .container__menu-bar > header{
     display: flex;
     justify-content: space-between;
@@ -44,9 +52,18 @@
 
 }
 
+.container__menu-bar__open-menu-mobile {
+    color: var(--app-color);
+    font-size: 35px;
+    display: none;
+}
 
 @media screen and (max-width: 1020px){
     .container__menu-bar__menu-desktop, .container__menu-bar__btn-contact {
         display: none;
+    }
+
+    .container__menu-bar__open-menu-mobile{
+        display: inline;
     }
 }
